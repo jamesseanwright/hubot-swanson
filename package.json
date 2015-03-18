@@ -1,0 +1,28 @@
+{
+  "name": "hubot-swanson",
+  "version": "0.0.1",
+  "description": "A Hubot script for retrieving Ron Swanson quotes",
+  "main": "index.coffee",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jamesseanwright/hubot-swanson"
+  },
+  "keywords": [
+    "ron",
+    "swanson",
+    "parks",
+    "rec",
+    "recreation",
+    "hubot",
+    "quotes"
+  ],
+  "author": "James Wright",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jamesseanwright/hubot-swanson/issues"
+  },
+  "homepage": "https://github.com/jamesseanwright/hubot-swanson"
+}
