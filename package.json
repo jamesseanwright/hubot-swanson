@@ -1,6 +1,6 @@
 {
   "name": "hubot-swanson",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "A Hubot script for retrieving Ron Swanson quotes",
   "main": "index.coffee",
   "scripts": {
