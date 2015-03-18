@@ -1,4 +1,4 @@
-# Ron Swanson quotes plugin for Hubot
+# Ron Swanson quotes plugin for Hubot [![npm version](https://badge.fury.io/js/hubot-swanson.svg)](http://badge.fury.io/js/hubot-swanson)
 
 A Hubot plugin that retrieves Ron Swanson quotes from [my API](https://github.com/jamesseanwright/ron-swanson-quotes).
 
