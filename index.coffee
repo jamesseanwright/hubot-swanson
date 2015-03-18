@@ -9,8 +9,8 @@
 
 module.exports = (robot) ->
   robot.respond /swanson me/i, (msg) ->
-    robot.http "http://ron-swanson-quotes.herokuapp.com/quotes"
-      .get (err, res, body) ->
+    robot.http("http://ron-swanson-quotes.herokuapp.com/quotes")
+      .get() (err, res, body) ->
         if err
           msg.send "Couldn't retrieve a quote from the server"
           return
