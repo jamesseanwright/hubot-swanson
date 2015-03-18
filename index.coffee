@@ -16,6 +16,7 @@ module.exports = (robot) ->
           return
 
         try
-          msg.send "\"" + JSON.parse(body).quote "\""
+          msg.send "\"" + JSON.parse(body).quote + "\""
         catch ex
+          console.log(ex)
           msg.send "Invalid JSON returned by server"

@@ -1,7 +1,8 @@
 {
   "name": "hubot-swanson",
-  "version": "0.0.3",
+  "version": "1.0.0",
   "description": "A Hubot script for retrieving Ron Swanson quotes",
+  "README": "https://github.com/jamesseanwright/hubot-swanson/blob/master/README.md",
   "main": "index.coffee",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
