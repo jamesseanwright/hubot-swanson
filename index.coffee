@@ -9,13 +9,13 @@
 
 module.exports = (robot) ->
   robot.respond /swanson me/i, (msg) ->
-    robot.http 'http://ron-swanson-quotes.herokuapp.com/quotes'
+    robot.http "http://ron-swanson-quotes.herokuapp.com/quotes"
       .get (err, res, body) ->
         if err
-          msg.send 'Couldn't retrieve a quote from the server'
+          msg.send "Couldn't retrieve a quote from the server"
           return
 
         try
-          msg.send '"' + JSON.parse(body).quote + '"'
+          msg.send "\"" + JSON.parse(body).quote "\""
         catch ex
-          msg.send 'Invalid JSON returned by server'
+          msg.send "Invalid JSON returned by server"
