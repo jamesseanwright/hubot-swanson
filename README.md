@@ -8,4 +8,5 @@ Navigate to your Hubot instance's directory and run `npm i hubot-swanson --save`
 
 ## Usage
 
-`hubot swanson me` - retrieves a quote
+* `hubot swanson me` - retrieves a quote
+* `hubot swanson bomb` - output multiple quotes. Configured by `maxBombQuotes`
