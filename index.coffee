@@ -34,7 +34,7 @@ module.exports = (robot) ->
 
         try
           quotes = JSON.parse(body).map (quote) -> "\"#{quote}\""
-          msg.send quotes
+          msg.send quotes.join "\n"
         catch ex
           console.log(ex)
           msg.send "Invalid response returned by server"
